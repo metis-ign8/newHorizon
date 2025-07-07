@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabriel Remote Assistants – AI‑Powered Remote Work</title>
+  <meta name="description" content="Find and hire the best remote assistants for your business operations through our AI‑powered matching platform.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://opsremotesupport.com/">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gabriel Remote Assistants – Remote assistance done right">
+  <meta property="og:description" content="Find and hire the best remote assistants for your business operations through our AI‑powered matching platform.">
+  <meta property="og:image" content="assets/og-cover.png">
+  <meta property="og:url" content="https://opsremotesupport.com/">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gabriel Remote Assistants – Remote assistance done right">
+  <meta name="twitter:description" content="Find and hire the best remote assistants for your business operations through our AI‑powered matching platform.">
+  <meta name="twitter:image" content="assets/og-cover.png">
+  <!-- PWA -->
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#ff007f">
+  <!-- Security & Integrity -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; script-src 'self' 'nonce-{{NONCE}}'; connect-src 'self' https://*.workers.dev https://*.supabase.co; frame-ancestors 'none';">
+  <!-- Styles -->
+  <link rel="preload" href="css/styles.css" as="style">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-brand"><a href="#home">Gabriel Remote Assistants</a></h1>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><button class="nav-btn" data-target="business-modal">Business Operations</button></li>
+        <li><button class="nav-btn" data-target="contact-modal">Contact Center</button></li>
+        <li><button class="nav-btn" data-target="it-modal">IT Support</button></li>
+        <li><button class="nav-btn" data-target="professionals-modal">Professionals</button></li>
+      </ul>
+    </nav>
+    <button id="cta-btn" class="cta" data-target="cta-modal">Get started</button>
+    <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">EN</button>
+  </header>
+
+  <main id="home" tabindex="-1">
+    <section class="hero" aria-label="Remote assistance hero">
+      <span class="eyebrow">⭐ AI‑Powered Remote Assistance</span>
+      <h2>Remote assistance<br>done right</h2>
+      <p>Find and hire the best remote assistants for your business operations with our AI‑powered matching platform.</p>
+      <div class="hero-actions">
+        <button class="btn primary" data-target="employment-modal" aria-haspopup="dialog">Get Started</button>
+        <button class="btn ghost" data-target="demo-modal" aria-haspopup="dialog">Watch Demo</button>
+      </div>
+      <div class="hero-media">
+        <picture>
+          <source type="image/webp" srcset="assets/hero@2x.webp 2x, assets/hero.webp 1x">
+          <img src="assets/hero.jpg" alt="Remote assistant working remotely" width="960" height="640" loading="lazy">
+        </picture>
+        <div class="stat-card" aria-label="Active assistants">
+          <span class="stat-value">124k+</span>
+          <span class="stat-label">Active assistants</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Platform metrics">
+      <ul>
+        <li><span class="metric-val">95%</span><span class="metric-label">Placement Rate</span></li>
+        <li><span class="metric-val">48hrs</span><span class="metric-label">Average Response Time</span></li>
+        <li><span class="metric-val">10k+</span><span class="metric-label">Companies Trust Us</span></li>
+      </ul>
+    </section>
+
+    <section class="how-it-works" aria-label="How it works">
+      <h2>How it works?</h2>
+      <p>Our AI‑powered platform simplifies remote assistance matching</p>
+      <ol class="steps">
+        <li class="step-card">
+          <h3>Define Your Needs</h3>
+          <p>Specify your business requirements and let our AI match you with the perfect remote assistants</p>
+        </li>
+        <li class="step-card">
+          <h3>Review Matches</h3>
+          <p>Get a curated list of pre‑screened remote assistants that match your criteria</p>
+        </li>
+        <li class="step-card">
+          <h3>Hire the Best</h3>
+          <p>Interview and hire top remote assistance professionals efficiently</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="cta-mobile" aria-label="Mobile app">
+      <div class="cta-copy">
+        <h2>Mobile App Available</h2>
+        <p>Take your recruitment process on the go. Download our mobile app to stay connected with top talent.</p>
+        <button class="btn primary" aria-label="Download app">Download ⬇</button>
+      </div>
+      <div class="cta-media">
+        <picture>
+          <source type="image/webp" srcset="assets/mobile@2x.webp 2x, assets/mobile.webp 1x">
+          <img src="assets/mobile.jpg" alt="Remote assistants control room" width="600" height="600" loading="lazy">
+        </picture>
+      </div>
+    </section>
+
+    <section class="testimonials" aria-label="Client testimonials">
+      <h2>What Our Clients Say</h2>
+      <p>Trusted by leading businesses worldwide</p>
+      <ul class="testimonial-list">
+        <li class="testimonial-card">
+          <blockquote>
+            <p>Gabriel Remote Assistants transformed our business operations. We found amazing support staff in record time.</p>
+            <footer>
+              <img src="assets/sarah.jpg" alt="Sarah Chen" width="40" height="40">
+              <cite><strong>Sarah Chen</strong>, Operations Director at TechFlow</cite>
+            </footer>
+          </blockquote>
+        </li>
+        <li class="testimonial-card">
+          <blockquote>
+            <p>The AI‑powered matching system is incredibly accurate. It saved us countless hours in recruitment.</p>
+            <footer>
+              <img src="assets/michael.jpg" alt="Michael Rodriguez" width="40" height="40">
+              <cite><strong>Michael Rodriguez</strong>, Head of Operations at DevScale</cite>
+            </footer>
+          </blockquote>
+        </li>
+        <li class="testimonial-card">
+          <blockquote>
+            <p>Outstanding remote assistants and excellent support throughout the hiring process.</p>
+            <footer>
+              <img src="assets/emily.jpg" alt="Emily Watson" width="40" height="40">
+              <cite><strong>Emily Watson</strong>, VP Operations at CloudPeak</cite>
+            </footer>
+          </blockquote>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <h2>Gabriel Remote Assistants</h2>
+      <p>Revolutionizing remote assistance with AI‑powered matching and seamless business support processes.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h3>Product</h3>
+        <ul><li><a href="#" data-target="business-modal">Features</a></li><li><a href="#" data-target="contact-modal">Contact Center</a></li><li><a href="#" data-target="enterprise-modal">Enterprise</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <ul><li><a href="#" data-target="it-modal">IT Support</a></li><li><a href="#" data-target="careers-modal">Careers</a></li><li><a href="#" data-target="professionals-modal">Professionals</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <ul><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li><li><a href="/security">Security</a></li></ul>
+      </div>
+    </div>
+    <p class="copyright">© 2025 Gabriel Remote Assistants. All rights reserved.</p>
+  </footer>
+
+  <!-- ─────────────── Modals (hidden by default) ─────────────── -->
+  <dialog id="business-modal" class="modal" aria-labelledby="business-title" aria-modal="true">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <h2 id="business-title">Business Operations Assistants</h2>
+    <div class="modal-body">
+      <!-- Carousel placeholder -->
+      <div class="carousel" data-role="carousel" data-source="business-ops"></div>
+      <button class="btn primary apply-btn">Apply</button>
+      <button class="btn ghost contact-btn" data-target="contact-form">Contact Us</button>
+    </div>
+  </dialog>
+
+  <dialog id="contact-modal" class="modal" aria-labelledby="contact-title" aria-modal="true">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <h2 id="contact-title">Contact Center Assistants</h2>
+    <div class="modal-body">
+      <div class="carousel" data-role="carousel" data-source="contact-center"></div>
+      <button class="btn primary apply-btn">Apply</button>
+      <button class="btn ghost contact-btn" data-target="contact-form">Contact Us</button>
+    </div>
+  </dialog>
+
+  <dialog id="it-modal" class="modal" aria-labelledby="it-title" aria-modal="true">
+    <button class="modal-close" aria-label="Close">&times;</
